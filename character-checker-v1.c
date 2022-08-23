@@ -5,7 +5,7 @@ int main()
 {
     char message[10000];
     int x = 0, y = 0;
-    scanf("%s",&message);
+    scanf("%s",message);
     for(int i = 0; message[i] != '\0'; i++)
     {
         if(isupper(message[i]))
